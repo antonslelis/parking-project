@@ -1,0 +1,845 @@
+13:19:17.499 [main] INFO  org.solent.parking.project.swingcient.MainApp - MainApp started
+13:19:17.503 [main] INFO  org.solent.parking.project.swingcient.MainApp - loading properties from config.properties
+13:19:17.503 [main] INFO  org.solent.parking.project.swingcient.MainApp - Starting with configuration {dataFileLocation=./localDataFile.xml, baseUrl=http://localhost:8680/, scheduleIntervalSeconds=125, retryAttempts=5, retryIntervalSeconds=11, scheduleEnabled=false}
+13:19:17.540 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\swing-client\target\.\localDataFile.xml
+13:19:17.540 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\swing-client\target\.\localDataFile.xml
+13:19:17.549 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+13:19:24.479 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:19:24.482 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:19:24.482 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 0 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:19:31.917 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:19:31.918 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:19:31.918 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 0 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:19:34.147 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:19:34.147 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=2, field_A=null, field_B=null, field_C=null}
+13:19:34.148 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 0 matching with templateEntity=Entity{id=2, field_A=null, field_B=null, field_C=null}
+13:19:35.978 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:19:35.979 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=2, field_A=null, field_B=null, field_C=null}
+13:19:35.980 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 0 matching with templateEntity=Entity{id=2, field_A=null, field_B=null, field_C=null}
+13:19:38.249 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:19:38.250 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:19:38.913 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=3, field_A=null, field_B=null, field_C=null}
+13:19:38.921 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:19:38.928 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>2</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>null</field_A>
+            <field_B>null</field_B>
+            <field_C>null</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:19:38.928 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:19:38.928 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:19:38.931 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:06.102 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:06.102 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:06.113 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:06.120 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>3</lastEntityId>
+    <entities>
+        <entity>
+            <id>3</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:06.126 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>3</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:06.127 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:06.127 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:06.128 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:11.523 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - table row selected :3
+13:20:11.524 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.EntityFieldsJPanel - setting model entity to Entity{id=3, field_A=123, field_B=234, field_C=523}
+13:20:19.161 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:21.179 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:21.180 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:21.190 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:21.198 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>5</lastEntityId>
+    <entities>
+        <entity>
+            <id>5</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:21.205 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>6</lastEntityId>
+    <entities>
+        <entity>
+            <id>5</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>6</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:21.205 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:21.205 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:21.207 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:21.960 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:21.961 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:21.969 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:21.975 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>7</lastEntityId>
+    <entities>
+        <entity>
+            <id>7</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:21.982 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>8</lastEntityId>
+    <entities>
+        <entity>
+            <id>7</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>8</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:21.982 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:21.982 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:21.984 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:22.536 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:22.537 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:22.544 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:22.550 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>9</lastEntityId>
+    <entities>
+        <entity>
+            <id>9</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:22.556 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>10</lastEntityId>
+    <entities>
+        <entity>
+            <id>9</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>10</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:22.556 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:22.556 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:22.558 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:22.996 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:22.996 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:23.004 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:23.015 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>11</lastEntityId>
+    <entities>
+        <entity>
+            <id>11</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.022 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>12</lastEntityId>
+    <entities>
+        <entity>
+            <id>11</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>12</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.022 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:23.022 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:23.025 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:23.424 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:23.424 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:23.431 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:23.437 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>13</lastEntityId>
+    <entities>
+        <entity>
+            <id>13</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.454 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>14</lastEntityId>
+    <entities>
+        <entity>
+            <id>13</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>14</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.454 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:23.454 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:23.456 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:23.901 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:23.901 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:23.908 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:23.914 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>15</lastEntityId>
+    <entities>
+        <entity>
+            <id>15</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.920 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>16</lastEntityId>
+    <entities>
+        <entity>
+            <id>15</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>16</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:23.920 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:23.920 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:23.922 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:24.465 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:24.466 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:24.472 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:24.477 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>17</lastEntityId>
+    <entities>
+        <entity>
+            <id>17</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:24.485 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>18</lastEntityId>
+    <entities>
+        <entity>
+            <id>17</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>18</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:24.485 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:24.485 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:24.487 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:25.714 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:25.714 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:25.721 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:25.726 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>19</lastEntityId>
+    <entities>
+        <entity>
+            <id>19</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:25.731 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>20</lastEntityId>
+    <entities>
+        <entity>
+            <id>19</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>20</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:25.732 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:25.732 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:25.733 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:26.198 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:26.198 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:26.205 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:26.210 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>21</lastEntityId>
+    <entities>
+        <entity>
+            <id>21</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:26.216 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>22</lastEntityId>
+    <entities>
+        <entity>
+            <id>21</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>22</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:26.216 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:26.216 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:26.217 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:26.873 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:26.873 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:26.880 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:26.886 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>23</lastEntityId>
+    <entities>
+        <entity>
+            <id>23</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:26.891 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>24</lastEntityId>
+    <entities>
+        <entity>
+            <id>23</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>24</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:26.891 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:26.891 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:26.892 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:27.683 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:27.684 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:27.693 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:27.702 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>25</lastEntityId>
+    <entities>
+        <entity>
+            <id>25</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:27.708 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>26</lastEntityId>
+    <entities>
+        <entity>
+            <id>25</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>26</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:27.708 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:27.708 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:27.709 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:28.254 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:28.254 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:28.260 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:28.266 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>27</lastEntityId>
+    <entities>
+        <entity>
+            <id>27</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:28.271 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>28</lastEntityId>
+    <entities>
+        <entity>
+            <id>27</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>28</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:28.271 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:28.271 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:28.272 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:28.880 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:28.880 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:28.886 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:28.891 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>29</lastEntityId>
+    <entities>
+        <entity>
+            <id>29</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:28.897 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>30</lastEntityId>
+    <entities>
+        <entity>
+            <id>29</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>30</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:28.897 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:28.897 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:28.898 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:29.507 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:29.507 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:29.515 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:29.526 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>31</lastEntityId>
+    <entities>
+        <entity>
+            <id>31</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:29.531 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>32</lastEntityId>
+    <entities>
+        <entity>
+            <id>31</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>32</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:29.531 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:29.531 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:29.532 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:30.831 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:30.831 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:30.837 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:30.843 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>33</lastEntityId>
+    <entities>
+        <entity>
+            <id>33</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:30.860 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>34</lastEntityId>
+    <entities>
+        <entity>
+            <id>33</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>34</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:30.860 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:30.860 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:30.861 [SwingWorker-pool-3-thread-1] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:32.907 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - clearSearchButton selected 
+13:20:32.908 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.EntityFieldsJPanel - setting model entity to Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:32.908 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:32.909 [SwingWorker-pool-3-thread-2] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:33.791 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - clearSearchButton selected 
+13:20:33.791 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.EntityFieldsJPanel - setting model entity to Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:33.791 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:33.792 [SwingWorker-pool-3-thread-3] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:34.219 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:34.219 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:34.225 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:34.231 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>35</lastEntityId>
+    <entities>
+        <entity>
+            <id>35</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:34.236 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>36</lastEntityId>
+    <entities>
+        <entity>
+            <id>35</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>36</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:34.237 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:34.237 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:34.238 [SwingWorker-pool-3-thread-4] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:56.110 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:20:56.110 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:56.111 [SwingWorker-pool-3-thread-5] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 1 matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:56.895 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:20:56.895 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:56.896 [SwingWorker-pool-3-thread-6] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 1 matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:57.821 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:20:57.822 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:57.822 [SwingWorker-pool-3-thread-7] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 1 matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:20:58.281 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:58.282 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:58.289 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:58.295 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>37</lastEntityId>
+    <entities>
+        <entity>
+            <id>37</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:58.300 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>38</lastEntityId>
+    <entities>
+        <entity>
+            <id>37</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>38</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:58.300 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:58.300 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:58.302 [SwingWorker-pool-3-thread-8] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:59.268 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - reload data button selected 
+13:20:59.268 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData called
+13:20:59.276 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.EntityClientLoader - Received 2 Entities
+   Entity{id=2, field_A=123, field_B=234, field_C=523}
+   Entity{id=4, field_A=sfdf, field_B=sdfsdf, field_C=dfsd}
+13:20:59.281 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>39</lastEntityId>
+    <entities>
+        <entity>
+            <id>39</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:59.287 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>40</lastEntityId>
+    <entities>
+        <entity>
+            <id>39</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>40</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:20:59.287 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - forceReloadData result=true
+13:20:59.287 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:20:59.288 [SwingWorker-pool-3-thread-9] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 2 matching with templateEntity=Entity{id=null, field_A=null, field_B=null, field_C=null}
+13:21:00.235 [AWT-EventQueue-0] DEBUG org.solent.parking.project.swingcient.gui.ControlsJPanel - findMatchingButton selected 
+13:21:00.235 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - find matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}
+13:21:00.236 [SwingWorker-pool-3-thread-10] DEBUG org.solent.parking.project.swingcient.ModelControllerImpl - found 1 matching with templateEntity=Entity{id=null, field_A=123, field_B=null, field_C=null}

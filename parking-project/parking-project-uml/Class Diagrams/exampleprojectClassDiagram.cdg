@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ReplyMessage">
+  <ClassDiagramComponents>
+    <Class name="ParkingMeter" package="org.solent.parking.project.model" visibility="public" xPosition="693.0" yPosition="994.0">
+      <Fields>
+        <Field name="id" type="Int" visibility="private"/>
+        <Field name="price" type="List&lt;Double&gt;" visibility="private"/>
+        <Field name="location" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="ReplyMessage" package="org.solent.parking.project.model" visibility="public" xPosition="255.0" yPosition="324.0">
+      <Fields>
+        <Field name="code" type="Integer" visibility="private"/>
+        <Field name="debugMessage" type="String" visibility="private"/>
+        <Field name="parkingMeters" type="ParkingMeterList" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="ParkingMeterList" package="org.solent.parking.project.model" visibility="public" xPosition="243.0" yPosition="574.0">
+      <Fields>
+        <Field name="parkingMeters" type="List&lt;ParkingMeter&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="ServiceFacade" package="org.solent.parking.project.model" visibility="public" xPosition="709.0" yPosition="538.0">
+      <Methods/>
+    </Interface>
+    <Interface name="ParkingMeterDAO" package="org.solent.parking.project.model" visibility="public" xPosition="579.0" yPosition="710.0">
+      <Methods>
+        <Method name="createParkingMeter" returnType="ParkingMeter" visibility="public">
+          <Argument type="ParkingMeter" name="pk"/>
+        </Method>
+        <Method name="deleteParkingMeter" returnType="Integer" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+        <Method name="retrieveParkingMeter" returnType="Integer" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+        <Method name="retrieveAllParkingMeters" returnType="List&lt;ParkingMeter&gt;" visibility="public"/>
+        <Method name="updateParkingMeter" returnType="ParkingMeter" visibility="public">
+          <Argument type="ParkingMeter" name="pk"/>
+        </Method>
+        <Method name="deleteAllParkingMeters" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Interface name="ParkingMeterInterface" package="org.solent.parking.project.model" visibility="public" xPosition="335.0" yPosition="68.0">
+      <Methods>
+        <Method name="sendUpdatedTimetable" returnType="ParkingMeter" visibility="public">
+          <Argument type="ParkingMeter" name="pk"/>
+        </Method>
+        <Method name="retrieveParkingMeter" returnType="ParkingMeter" visibility="public">
+          <Argument type="Integer" name="id"/>
+        </Method>
+      </Methods>
+    </Interface>
+    <Interface name="ServiceFactory" package="org.solent.parking.project.model" visibility="public" xPosition="709.0" yPosition="233.0">
+      <Methods>
+        <Method name="getServiceFacade" returnType="ServiceFacade" visibility="public"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="hasEntityList" source="org.solent.parking.project.model.ReplyMessage" target="org.solent.parking.project.model.ParkingMeterList" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="usesObjectFactoryToGetService" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="useReplyMessage" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ReplyMessage" sourceCardinality="1..1" targetCardinality="0..*"/>
+    <IsRelation name="is" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO"/>
+    <UseRelation name="usesEntityDao" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usesServiceFacade" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="createsAndAccesses" source="org.solent.parking.project.model.ServiceFactory" target="org.solent.parking.project.model.ServiceFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usesParkingMeter" source="org.solent.parking.project.model.ParkingMeterDAO" target="org.solent.parking.project.model.ParkingMeter" sourceCardinality="1..1" targetCardinality="0..*"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

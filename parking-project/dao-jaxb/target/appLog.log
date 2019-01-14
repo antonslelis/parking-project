@@ -1,0 +1,157 @@
+13:08:15.833 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+13:08:15.839 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+13:08:15.850 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+13:08:15.851 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_0, field_B=field_B_0, field_C=field_C_0}
+13:08:15.865 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.865 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_1, field_B=field_B_1, field_C=field_C_1}
+13:08:15.873 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>2</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.874 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+13:08:15.881 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>3</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.881 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+13:08:15.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>2</id>
+            <field_A>field_A_1</field_A>
+            <field_B>field_B_1</field_B>
+            <field_C>field_C_1</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.902 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  entity:2
+13:08:15.910 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_2</field_A>
+            <field_B>field_B_2</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.914 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: Entity{id=3, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
+13:08:15.914 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=null}
+13:08:15.920 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>field_A_0</field_A>
+            <field_B>field_B_0</field_B>
+            <field_C>field_C_0</field_C>
+        </entity>
+        <entity>
+            <id>3</id>
+            <field_A>field_A_Update</field_A>
+            <field_B>field_B_Update</field_B>
+            <field_C>field_C_2</field_C>
+        </entity>
+        <entity>
+            <id>4</id>
+            <field_A>field_A_3</field_A>
+            <field_B>field_B_3</field_B>
+            <field_C>field_C_3</field_C>
+        </entity>
+    </entities>
+</entityList>
+
+13:08:15.924 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+13:08:15.928 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
+13:08:15.933 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+13:08:15.933 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Entity{id=null, field_A=null, field_B=field_B_3, field_C=null}
+13:08:15.936 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}

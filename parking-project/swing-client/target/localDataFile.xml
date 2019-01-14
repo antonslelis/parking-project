@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>40</lastEntityId>
+    <entities>
+        <entity>
+            <id>39</id>
+            <field_A>123</field_A>
+            <field_B>234</field_B>
+            <field_C>523</field_C>
+        </entity>
+        <entity>
+            <id>40</id>
+            <field_A>sfdf</field_A>
+            <field_B>sdfsdf</field_B>
+            <field_C>dfsd</field_C>
+        </entity>
+    </entities>
+</entityList>

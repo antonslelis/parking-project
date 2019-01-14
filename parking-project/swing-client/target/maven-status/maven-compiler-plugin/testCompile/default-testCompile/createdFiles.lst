@@ -1,0 +1,3 @@
+org\solent\parking\project\swingcient\test\manual\RestClientJerseyImplTest.class
+org\solent\parking\project\swingcient\test\manual\EntitySingleClientLoaderTest.class
+org\solent\parking\project\swingcient\test\manual\ScheduledEntityClientLoaderTest.class

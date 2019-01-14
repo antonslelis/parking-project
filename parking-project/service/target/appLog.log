@@ -1,0 +1,18 @@
+13:08:17.371 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\.\target\testfile.xml
+13:08:17.374 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\.\target\testfile.xml
+13:08:17.406 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <entities/>
+</entityList>
+
+13:08:17.430 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entityList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <id>1</id>
+            <field_A>testFieldA</field_A>
+        </entity>
+    </entities>
+</entityList>
+

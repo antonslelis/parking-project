@@ -1,0 +1,7 @@
+org\solent\parking\project\model\ReplyMessage.class
+org\solent\parking\project\model\ServiceFacade.class
+org\solent\parking\project\model\RestInterface.class
+org\solent\parking\project\model\ServiceFactory.class
+org\solent\parking\project\model\Entity.class
+org\solent\parking\project\model\EntityDAO.class
+org\solent\parking\project\model\EntityList.class
