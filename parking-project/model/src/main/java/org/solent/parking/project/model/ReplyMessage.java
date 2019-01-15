@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -15,9 +15,8 @@ public class ReplyMessage {
     private Integer code;
 
     private String debugMessage;
-    
-    private EntityList entityList=new EntityList();
 
+    private ParkingMeterList parkingMeters=new ParkingMeterList(); 
 
     public Integer getCode() {
         return code;
@@ -35,19 +34,13 @@ public class ReplyMessage {
         this.debugMessage = debugMessage;
     }
 
-    public EntityList getEntityList() {
-        return entityList;
+    public ParkingMeterList getParkingMeters() {
+        return parkingMeters;
     }
 
-    public void setEntityList(EntityList entityList) {
-        this.entityList = entityList;
+    public void setParkingMeters(ParkingMeterList parkingMeters) {
+        this.parkingMeters = parkingMeters;
     }
-
-    @Override
-    public String toString() {
-        return "ReplyMessage{" + "code=" + code + ", debugMessage=" + debugMessage + ", entityList=" + entityList + '}';
-    }
-
-
-
+    
+    
 }

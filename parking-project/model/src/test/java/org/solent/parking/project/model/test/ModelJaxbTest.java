@@ -18,6 +18,7 @@ package org.solent.parking.project.model.test;
 
 import java.io.File;
 import java.io.StringWriter;
+import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -25,7 +26,7 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.solent.parking.project.model.Entity;
+import org.solent.parking.project.model.ParkingMeter;
 import org.solent.parking.project.model.ReplyMessage;
 
 /**
@@ -58,15 +59,18 @@ public class ModelJaxbTest {
             replyMessage1.setCode(200);
             replyMessage1.setDebugMessage("debug message 1");
 
-            List<Entity> entities = replyMessage1.getEntityList().getEntities();
+            List<ParkingMeter> parkingMeters = replyMessage1.getParkingMeters().getParkingMeters();
 
             for (int intityId = 0; intityId < 3; intityId++) {
-                Entity entity = new Entity();
-                entity.setId(intityId);
-                entity.setField_A("field_A_" + intityId);
-                entity.setField_B("field_B_" + intityId);;
-                entity.setField_C("field_C_" + intityId);;
-                entities.add(entity);
+                ParkingMeter meter = new ParkingMeter();
+                meter.setId(intityId);
+                meter.setLocation("somewhere");
+                List<Double> crList= new ArrayList<Double>();
+                for(int i=0;i<24;i++){
+                    crList.add(new Double(i+intityId));
+                }
+                meter.setPrice(crList);
+                parkingMeters.add(meter);
             }
 
             // marshal the object lists to system out, a file and a stringWriter

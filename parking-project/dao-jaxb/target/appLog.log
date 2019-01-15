@@ -1,157 +1,2431 @@
-13:08:15.833 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
-13:08:15.839 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
-13:08:15.850 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <entities/>
-</entityList>
+15:48:01.068 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+15:48:01.071 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+15:52:33.076 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+15:52:33.080 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:01:23.648 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:01:23.651 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:01:23.661 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
 
-13:08:15.851 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_0, field_B=field_B_0, field_C=field_C_0}
-13:08:15.865 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>1</lastEntityId>
-    <entities>
-        <entity>
-            <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-    </entities>
-</entityList>
+16:03:30.074 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:03:30.077 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:03:30.084 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
 
-13:08:15.865 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_1, field_B=field_B_1, field_C=field_C_1}
-13:08:15.873 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>2</lastEntityId>
-    <entities>
-        <entity>
+16:16:04.200 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:16:04.204 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:16:04.211 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:16:04.211 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:17:15.969 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:17:15.972 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:17:15.979 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:17:15.980 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:17:15.980 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@30b7c004
+16:17:15.980 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@79efed2d
+16:17:58.820 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:17:58.824 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:17:58.832 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:17:58.832 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:23:16.030 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:23:16.034 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:23:16.041 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:23:16.042 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:23:16.042 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@30b7c004
+16:23:16.042 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@79efed2d
+16:23:32.316 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:23:32.320 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:23:32.327 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:23:32.327 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:25:40.186 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:25:40.189 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:25:40.199 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:25:40.200 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:26:35.021 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:26:35.025 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:26:35.036 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:26:35.037 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:26:35.037 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:27:01.447 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:27:01.450 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:27:01.456 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:27:01.457 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:27:01.457 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:27:01.457 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:28:13.596 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:28:13.600 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:28:13.610 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:28:13.611 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:28:13.611 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:28:13.611 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:29:04.880 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:29:04.883 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:29:04.890 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:29:04.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:29:04.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:29:04.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:29:04.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.818 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:35:39.822 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:35:39.828 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:35:39.829 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:35:39.829 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:35:39.829 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:35:39.830 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.837 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.837 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk copied
+16:35:39.844 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-        <entity>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:35:39.844 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:35:39.844 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:35:39.844 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:35:39.845 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.847 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.847 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk copied
+16:35:39.854 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
             <id>2</id>
-            <field_A>field_A_1</field_A>
-            <field_B>field_B_1</field_B>
-            <field_C>field_C_1</field_C>
-        </entity>
-    </entities>
-</entityList>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
-13:08:15.874 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
-13:08:15.881 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>3</lastEntityId>
-    <entities>
-        <entity>
+16:35:39.855 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:35:39.855 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - id set
+16:35:39.856 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk id set
+16:35:39.856 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.858 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - copied
+16:35:39.859 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - pk copied
+16:35:39.865 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-        <entity>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
             <id>2</id>
-            <field_A>field_A_1</field_A>
-            <field_B>field_B_1</field_B>
-            <field_C>field_C_1</field_C>
-        </entity>
-        <entity>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
             <id>3</id>
-            <field_A>field_A_2</field_A>
-            <field_B>field_B_2</field_B>
-            <field_C>field_C_2</field_C>
-        </entity>
-    </entities>
-</entityList>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
-13:08:15.881 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding entity:Entity{id=null, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
-13:08:15.891 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>4</lastEntityId>
-    <entities>
-        <entity>
+16:37:10.775 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:37:10.779 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:37:10.786 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:37:10.786 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:37:10.796 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-        <entity>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:37:10.797 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:37:10.802 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
             <id>2</id>
-            <field_A>field_A_1</field_A>
-            <field_B>field_B_1</field_B>
-            <field_C>field_C_1</field_C>
-        </entity>
-        <entity>
-            <id>3</id>
-            <field_A>field_A_2</field_A>
-            <field_B>field_B_2</field_B>
-            <field_C>field_C_2</field_C>
-        </entity>
-        <entity>
-            <id>4</id>
-            <field_A>field_A_3</field_A>
-            <field_B>field_B_3</field_B>
-            <field_C>field_C_3</field_C>
-        </entity>
-    </entities>
-</entityList>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
-13:08:15.902 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  entity:2
-13:08:15.910 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>4</lastEntityId>
-    <entities>
-        <entity>
+16:37:10.803 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:37:10.808 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-        <entity>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
             <id>3</id>
-            <field_A>field_A_2</field_A>
-            <field_B>field_B_2</field_B>
-            <field_C>field_C_2</field_C>
-        </entity>
-        <entity>
-            <id>4</id>
-            <field_A>field_A_3</field_A>
-            <field_B>field_B_3</field_B>
-            <field_C>field_C_3</field_C>
-        </entity>
-    </entities>
-</entityList>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
-13:08:15.914 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: Entity{id=3, field_A=field_A_2, field_B=field_B_2, field_C=field_C_2}
-13:08:15.914 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - update template: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=null}
-13:08:15.920 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>4</lastEntityId>
-    <entities>
-        <entity>
+16:40:32.719 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:40:32.722 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:40:32.729 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:40:32.730 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:40:32.740 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>field_A_0</field_A>
-            <field_B>field_B_0</field_B>
-            <field_C>field_C_0</field_C>
-        </entity>
-        <entity>
-            <id>3</id>
-            <field_A>field_A_Update</field_A>
-            <field_B>field_B_Update</field_B>
-            <field_C>field_C_2</field_C>
-        </entity>
-        <entity>
-            <id>4</id>
-            <field_A>field_A_3</field_A>
-            <field_B>field_B_3</field_B>
-            <field_C>field_C_3</field_C>
-        </entity>
-    </entities>
-</entityList>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
-13:08:15.924 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
-13:08:15.928 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - retreived entity: Entity{id=3, field_A=field_A_Update, field_B=field_B_Update, field_C=field_C_2}
-13:08:15.933 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - searching for: Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
-13:08:15.933 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - using template : Entity{id=null, field_A=null, field_B=field_B_3, field_C=null}
-13:08:15.936 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - found : Entity{id=4, field_A=field_A_3, field_B=field_B_3, field_C=field_C_3}
+16:40:32.740 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:40:32.746 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:40:32.747 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:40:32.754 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:44:51.296 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:44:51.300 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:44:51.306 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:44:51.307 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:44:51.316 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:44:51.317 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:44:51.322 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:44:51.323 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:44:51.330 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:50:42.799 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:50:42.802 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:50:42.810 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:50:42.810 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:50:42.821 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:50:42.822 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:50:42.831 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:50:42.831 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:50:42.837 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:50:42.849 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  meter:3
+16:50:42.859 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:55:41.264 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:55:41.268 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+16:55:41.275 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+16:55:41.275 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+16:55:41.286 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:55:41.287 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+16:55:41.292 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:55:41.293 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+16:55:41.300 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+16:55:41.316 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  meter:3
+16:55:41.319 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:04:57.675 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:04:57.679 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:04:57.686 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+17:04:57.687 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+17:04:57.697 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:04:57.698 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+17:04:57.703 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:04:57.704 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+17:04:57.710 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:04:57.723 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  meter:2
+17:04:57.734 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:04:57.743 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: org.solent.parking.project.model.ParkingMeter@79efed2d
+17:04:57.743 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated version:org.solent.parking.project.model.ParkingMeter@79efed2d
+17:04:57.751 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:06:35.732 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:06:35.735 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:06:35.742 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+17:06:35.743 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+17:06:35.756 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:06:35.756 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+17:06:35.762 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:06:35.762 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+17:06:35.768 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:06:35.782 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  meter:2
+17:06:35.790 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:06:35.800 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: org.solent.parking.project.model.ParkingMeter@79efed2d
+17:06:35.800 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated version:org.solent.parking.project.model.ParkingMeter@79efed2d
+17:06:35.802 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:15:02.287 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:15:02.291 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\dao-jaxb\target\testDaofile.xml
+17:15:02.299 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+17:15:02.300 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@4c1d9d4b
+17:15:02.311 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:15:02.311 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@45018215
+17:15:02.317 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:15:02.318 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - adding parking meter:org.solent.parking.project.model.ParkingMeter@d706f19
+17:15:02.326 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>2</id>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <location>location1</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:15:02.343 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - deleting  meter:2
+17:15:02.349 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <price>24.0</price>
+            <price>25.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:15:02.360 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updating entity: org.solent.parking.project.model.ParkingMeter@79efed2d
+17:15:02.361 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.test.EntityDAOJaxbImplTest - updated version:org.solent.parking.project.model.ParkingMeter@79efed2d
+17:15:02.367 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <price>0.0</price>
+            <price>1.0</price>
+            <price>2.0</price>
+            <price>3.0</price>
+            <price>4.0</price>
+            <price>5.0</price>
+            <price>6.0</price>
+            <price>7.0</price>
+            <price>8.0</price>
+            <price>9.0</price>
+            <price>10.0</price>
+            <price>11.0</price>
+            <price>12.0</price>
+            <price>13.0</price>
+            <price>14.0</price>
+            <price>15.0</price>
+            <price>16.0</price>
+            <price>17.0</price>
+            <price>18.0</price>
+            <price>19.0</price>
+            <price>20.0</price>
+            <price>21.0</price>
+            <price>22.0</price>
+            <price>23.0</price>
+            <location>location0</location>
+        </parking-meter>
+        <parking-meter>
+            <id>3</id>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <price>0.0</price>
+            <location>location2</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+

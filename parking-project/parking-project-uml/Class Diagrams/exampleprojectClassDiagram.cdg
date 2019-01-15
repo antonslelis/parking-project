@@ -4,7 +4,7 @@
   <ClassDiagramComponents>
     <Class name="ParkingMeter" package="org.solent.parking.project.model" visibility="public" xPosition="693.0" yPosition="994.0">
       <Fields>
-        <Field name="id" type="Int" visibility="private"/>
+        <Field name="id" type="Integer" visibility="private"/>
         <Field name="price" type="List&lt;Double&gt;" visibility="private"/>
         <Field name="location" type="String" visibility="private"/>
       </Fields>
@@ -35,10 +35,10 @@
         <Method name="createParkingMeter" returnType="ParkingMeter" visibility="public">
           <Argument type="ParkingMeter" name="pk"/>
         </Method>
-        <Method name="deleteParkingMeter" returnType="Integer" visibility="public">
+        <Method name="deleteParkingMeter" returnType="boolean" visibility="public">
           <Argument type="Integer" name="id"/>
         </Method>
-        <Method name="retrieveParkingMeter" returnType="Integer" visibility="public">
+        <Method name="retrieveParkingMeter" returnType="ParkingMeter" visibility="public">
           <Argument type="Integer" name="id"/>
         </Method>
         <Method name="retrieveAllParkingMeters" returnType="List&lt;ParkingMeter&gt;" visibility="public"/>
@@ -65,13 +65,13 @@
     </Interface>
   </ClassDiagramComponents>
   <ClassDiagramRelations>
-    <HasRelation name="hasEntityList" source="org.solent.parking.project.model.ReplyMessage" target="org.solent.parking.project.model.ParkingMeterList" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
-    <UseRelation name="usesObjectFactoryToGetService" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <UseRelation name="useReplyMessage" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ReplyMessage" sourceCardinality="1..1" targetCardinality="0..*"/>
-    <IsRelation name="is" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO"/>
-    <UseRelation name="usesEntityDao" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <UseRelation name="usesServiceFacade" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation name="createsAndAccesses" source="org.solent.parking.project.model.ServiceFactory" target="org.solent.parking.project.model.ServiceFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="useReplyMessage" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ReplyMessage" sourceCardinality="1..1" targetCardinality="0..*"/>
+    <UseRelation name="usesObjectFactoryToGetService" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO"/>
+    <HasRelation name="hasEntityList" source="org.solent.parking.project.model.ReplyMessage" target="org.solent.parking.project.model.ParkingMeterList" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="usesServiceFacade" source="org.solent.parking.project.model.ParkingMeterInterface" target="org.solent.parking.project.model.ServiceFacade" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="uses ParkingMeterDAO" source="org.solent.parking.project.model.ServiceFacade" target="org.solent.parking.project.model.ParkingMeterDAO" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation name="usesParkingMeter" source="org.solent.parking.project.model.ParkingMeterDAO" target="org.solent.parking.project.model.ParkingMeter" sourceCardinality="1..1" targetCardinality="0..*"/>
   </ClassDiagramRelations>
 </ClassDiagram>
