@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>1</lastEntityId>
-    <entities>
-        <entity>
-            <id>1</id>
-            <field_A>testFieldA</field_A>
-        </entity>
-    </entities>
-</entityList>
+<parkingMeterList>
+    <lastParkingMeterId>4</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>4</id>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>

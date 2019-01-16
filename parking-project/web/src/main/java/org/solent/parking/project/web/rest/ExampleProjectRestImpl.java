@@ -19,7 +19,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.solent.parking.project.model.Entity;
+import org.solent.parking.project.model.ParkingMeter;
 import org.solent.parking.project.model.ReplyMessage;
 import org.solent.parking.project.model.ServiceFacade;
 import org.solent.parking.project.web.WebObjectFactory;
@@ -32,39 +32,6 @@ import org.solent.parking.project.web.WebObjectFactory;
 public class ExampleProjectRestImpl {
 
     private static final Logger LOG = LoggerFactory.getLogger(ExampleProjectRestImpl.class);
-
-    @POST
-    @Path("/retrievematching")
-    @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public Response retrieveMatchingEntites(Entity entityTemplate) {
-
-        try {
-            if (entityTemplate == null) {
-                throw new IllegalArgumentException("entityTemplate request parameter must be set");
-            }
-            ReplyMessage replyMessage = new ReplyMessage();
-
-            ServiceFacade serviceFacade = WebObjectFactory.getServiceFactory().getServiceFacade();
-            List<Entity> eList = serviceFacade.retrieveMatchingEntities(entityTemplate);
-
-            LOG.debug("/retrievematching entityTemplate: " + entityTemplate 
-                    + " found " + eList.size() + "entities");
-
-            replyMessage.getEntityList().getEntities().addAll(eList);
-
-            replyMessage.setCode(Response.Status.OK.getStatusCode());
-
-            return Response.status(Response.Status.OK).entity(replyMessage).build();
-
-        } catch (Exception ex) {
-            LOG.error("error calling /retrievematching ", ex);
-            ReplyMessage replyMessage = new ReplyMessage();
-            replyMessage.setCode(Response.Status.INTERNAL_SERVER_ERROR.getStatusCode());
-            replyMessage.setDebugMessage("error calling /retrievematching " + ex.getMessage());
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(replyMessage).build();
-        }
-    }
 
     // GET localhost:8680/rest/example/retrieve?id=9
     @GET
@@ -79,10 +46,10 @@ public class ExampleProjectRestImpl {
             ReplyMessage replyMessage = new ReplyMessage();
 
             ServiceFacade serviceFacade = WebObjectFactory.getServiceFactory().getServiceFacade();
-            Entity entity = serviceFacade.retrieveEntity(id);
-            if (entity != null) {
-                LOG.debug("/retrieve id=" + id + " found entity :" + entity);
-                replyMessage.getEntityList().getEntities().add(entity);
+            ParkingMeter pk = serviceFacade.retrieveParkingMeter(id);
+            if (pk != null) {
+                LOG.debug("/retrieve id=" + id + " found parking meter :" + pk);
+                replyMessage.getParkingMeters().getParkingMeters().add(pk);
 
                 replyMessage.setCode(Response.Status.OK.getStatusCode());
                 return Response.status(Response.Status.OK).entity(replyMessage).build();

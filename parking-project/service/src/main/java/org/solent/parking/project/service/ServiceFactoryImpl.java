@@ -5,8 +5,8 @@
  */
 package org.solent.parking.project.service;
 
-import org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl;
-import org.solent.parking.project.model.EntityDAO;
+import org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl;
+import org.solent.parking.project.model.ParkingMeterDAO;
 import org.solent.parking.project.model.ServiceFacade;
 import org.solent.parking.project.model.ServiceFactory;
 
@@ -25,9 +25,9 @@ public class ServiceFactoryImpl implements ServiceFactory {
             throw new IllegalArgumentException("dataFileUri must not be null");
         }
         
-        EntityDAO entityDao = new EntityDAOJaxbImpl(dataFileUri);
+        ParkingMeterDAO pkDao = new ParkingMeterDAOImpl(dataFileUri);
         ServiceFacadeImpl serviceFacadeImpl = new ServiceFacadeImpl();
-        serviceFacadeImpl.setEntityDAO(entityDao);
+        serviceFacadeImpl.setPkDAO(pkDao);
         serviceFacade = serviceFacadeImpl;
         
     }

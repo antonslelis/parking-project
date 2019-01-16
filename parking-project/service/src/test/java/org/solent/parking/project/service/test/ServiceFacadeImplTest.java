@@ -5,10 +5,11 @@
  */
 package org.solent.parking.project.service.test;
 
+import java.io.File;
 import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.solent.parking.project.model.Entity;
+import org.solent.parking.project.model.ParkingMeter;
 import org.solent.parking.project.model.ServiceFacade;
 import org.solent.parking.project.model.ServiceFactory;
 import org.solent.parking.project.service.ServiceFactoryImpl;
@@ -19,27 +20,25 @@ import org.solent.parking.project.service.ServiceFactoryImpl;
  */
 public class ServiceFacadeImplTest {
 
-    public static final String TEST_DATA_FILE = "./target/testfile.xml";
+    public static final String TEST_DATA_FILE = "target/testfile.xml";
 
-    // Only some basic tests as most tests already done in EntityDAO tests
+    
     @Test
     public void simpleServiceFacadeTest() {
-
         // use service factory to get access to service
         ServiceFactory serviceFactory = new ServiceFactoryImpl(TEST_DATA_FILE);
         assertNotNull(serviceFactory);
-
         ServiceFacade serviceFacade = serviceFactory.getServiceFacade();
         assertNotNull(serviceFacade);
         
         // clear file before anything else
-        serviceFacade.deleteAllEntities();
+        serviceFacade.deleteAllParkingMeters();
 
-        Entity entity = new Entity();
-        entity.setField_A("testFieldA");
+        ParkingMeter pk = new ParkingMeter();
+        pk.setLocation("random location");
 
-        serviceFacade.createEntity(entity);
-        List<Entity> retrievedEntities = serviceFacade.retrieveMatchingEntities(entity);
+        serviceFacade.createParkingMeter(pk);
+        List<ParkingMeter> retrievedEntities = serviceFacade.retrieveAllParkingMeters();
 
         assertEquals(1, retrievedEntities.size());
     }

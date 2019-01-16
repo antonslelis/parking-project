@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.solent.parking.project.web.rest.client.test.manual.ParkingMeterInterfaceImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.469 sec <<< FAILURE! - in org.solent.parking.project.web.rest.client.test.manual.ParkingMeterInterfaceImplTest
+restClientRetreiveTest(org.solent.parking.project.web.rest.client.test.manual.ParkingMeterInterfaceImplTest)  Time elapsed: 1.468 sec  <<< ERROR!
+java.lang.RuntimeException: cannot run rest client to retrieveEntity: Exception:
+	at org.solent.parking.project.web.rest.client.ParkingMeterInterfaceImpl.retrieveParkingMeter(ParkingMeterInterfaceImpl.java:54)
+	at org.solent.parking.project.web.rest.client.test.manual.ParkingMeterInterfaceImplTest.restClientRetreiveTest(ParkingMeterInterfaceImplTest.java:30)
+

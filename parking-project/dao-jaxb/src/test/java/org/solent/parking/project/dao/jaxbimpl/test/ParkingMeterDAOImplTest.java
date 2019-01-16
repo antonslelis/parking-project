@@ -21,7 +21,7 @@ import org.solent.parking.project.model.ParkingMeterDAO;
  */
 public class ParkingMeterDAOImplTest {
     
-    private static final Logger LOG = LoggerFactory.getLogger(EntityDAOJaxbImplTest.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ParkingMeterDAOImplTest.class);
     public final String TEST_DATA_FILE_LOCATION = "target/testDaofile.xml";
     
     @Test
@@ -69,7 +69,7 @@ public class ParkingMeterDAOImplTest {
         //update parking meter
         List<ParkingMeter> pmList2=parkingMeterDao.retrieveAllParkingMeters();
         ParkingMeter meterToUp=pmList2.get(1);
-        LOG.debug("updating entity: " + meterToUp);
+        LOG.debug("updating meter: " + meterToUp);
         //change meter fields
         List<Double> crList= new ArrayList<Double>();
         for(int j=0;j<24;j++){

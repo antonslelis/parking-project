@@ -27,7 +27,7 @@ import org.solent.parking.project.model.ParkingMeterList;
  */
 public class ParkingMeterDAOImpl implements ParkingMeterDAO{
     
-    private static final Logger LOG = LoggerFactory.getLogger(EntityDAOJaxbImpl.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ParkingMeterDAOImpl.class);
     private static final String CONTEXT_PATH = "org.solent.parking.project.model";
     public final Object Lock = new Object();
     private String dataFileLocation = null;

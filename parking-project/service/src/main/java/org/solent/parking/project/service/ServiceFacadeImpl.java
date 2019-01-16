@@ -6,55 +6,49 @@
 package org.solent.parking.project.service;
 
 import java.util.List;
-import org.solent.parking.project.model.Entity;
-import org.solent.parking.project.model.EntityDAO;
+import org.solent.parking.project.model.ParkingMeter;
 import org.solent.parking.project.model.ServiceFacade;
+import org.solent.parking.project.model.ParkingMeterDAO;
 
 /**
  *
- * @author cgallen
+ * @author anton
  */
-public class ServiceFacadeImpl implements ServiceFacade {
+public class ServiceFacadeImpl implements ServiceFacade{
+    ParkingMeterDAO pkDAO=null;
+
+    public void setPkDAO(ParkingMeterDAO pkDAO) {
+        this.pkDAO = pkDAO;
+    }
     
-    EntityDAO entityDAO = null;
-
-    public void setEntityDAO(EntityDAO entityDAO) {
-        this.entityDAO = entityDAO;
+    @Override
+    public ParkingMeter createParkingMeter(ParkingMeter pk) {
+        return pkDAO.createParkingMeter(pk);
     }
 
     @Override
-    public void deleteAllEntities() {
-       entityDAO.deleteAllEntities();
+    public boolean deleteParkingMeter(Integer id) {
+        return pkDAO.deleteParkingMeter(id);
     }
 
     @Override
-    public Entity createEntity(Entity entity) {
-        return entityDAO.createEntity(entity);
+    public ParkingMeter retrieveParkingMeter(Integer id) {
+        return pkDAO.retrieveParkingMeter(id);
     }
 
     @Override
-    public boolean deleteEntity(Integer id) {
-        return entityDAO.deleteEntity(id);
+    public List<ParkingMeter> retrieveAllParkingMeters() {
+        return pkDAO.retrieveAllParkingMeters();
     }
 
     @Override
-    public Entity retrieveEntity(Integer id) {
-        return entityDAO.retrieveEntity(id);
+    public ParkingMeter updateParkingMeter(ParkingMeter pk) {
+        return pkDAO.updateParkingMeter(pk);
     }
 
     @Override
-    public List<Entity> retrieveAllEntities() {
-        return entityDAO.retrieveAllEntities();
-    }
-
-    @Override
-    public List<Entity> retrieveMatchingEntities(Entity entityTempate) {
-        return entityDAO.retrieveMatchingEntities(entityTempate);
-    }
-
-    @Override
-    public Entity updateEntity(Entity entity) {
-        return entityDAO.updateEntity(entity);
+    public void deleteAllParkingMeters() {
+        pkDAO.deleteAllParkingMeters();
     }
     
 }

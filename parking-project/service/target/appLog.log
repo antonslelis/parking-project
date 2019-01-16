@@ -1,18 +1,75 @@
-13:08:17.371 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\.\target\testfile.xml
-13:08:17.374 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\.\target\testfile.xml
-13:08:17.406 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <entities/>
-</entityList>
+16:55:55.830 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+16:55:55.833 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+16:55:55.840 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
 
-13:08:17.430 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.EntityDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<entityList>
-    <lastEntityId>1</lastEntityId>
-    <entities>
-        <entity>
+16:55:55.852 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
             <id>1</id>
-            <field_A>testFieldA</field_A>
-        </entity>
-    </entities>
-</entityList>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:07:26.127 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:26.131 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - dataFile does not exist creating new C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:26.141 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <parking-meters/>
+</parkingMeterList>
+
+17:07:26.152 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>1</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>1</id>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:07:42.056 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:42.060 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - dataFile exists loading:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:42.078 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>2</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>2</id>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:07:56.378 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:56.381 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - dataFile exists loading:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:07:56.399 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>3</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>3</id>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
+
+17:08:51.531 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - using dataFile:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:08:51.534 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - dataFile exists loading:C:\Users\anton\Documents\parking-project\parking-project\parking-project\service\target\testfile.xml
+17:08:51.552 [main] DEBUG org.solent.parking.project.dao.jaxbimpl.ParkingMeterDAOImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parkingMeterList>
+    <lastParkingMeterId>4</lastParkingMeterId>
+    <parking-meters>
+        <parking-meter>
+            <id>4</id>
+            <location>random location</location>
+        </parking-meter>
+    </parking-meters>
+</parkingMeterList>
 
