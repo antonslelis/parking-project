@@ -117,7 +117,6 @@ public class ParkingMeterDAOImpl implements ParkingMeterDAO{
                 if (pk.getId().equals(meter.getId())) {
                     boolean changedfield = false;
 
-                    // update properties fields if only if entityTemplate field is set
                     if (pk.getLocation() != null) {
                         meter.setLocation(pk.getLocation());
                         changedfield = true;
@@ -135,7 +134,7 @@ public class ParkingMeterDAOImpl implements ParkingMeterDAO{
 
             }
         }
-        return null; //entity not found
+        return null; 
     }
 
     @Override

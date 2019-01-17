@@ -1,5 +1,5 @@
 /* ***************************************************************************
- * Copyright 2018 Craig Gallen
+ * Copyright 2019 Antons Lelis
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,8 @@ import org.solent.parking.project.model.ReplyMessage;
 
 /**
  *
- * @author gallenc
+ * @author anton
+ * 
  */
 public class ModelJaxbTest {
 

@@ -11,8 +11,8 @@ import org.solent.parking.project.model.ServiceFacade;
 import org.solent.parking.project.model.ServiceFactory;
 
 /**
- *
- * @author cgallen
+ * @author anton
+ * 
  */
 public class ServiceFactoryImpl implements ServiceFactory {
 

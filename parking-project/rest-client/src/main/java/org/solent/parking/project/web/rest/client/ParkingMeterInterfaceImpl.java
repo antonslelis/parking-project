@@ -62,7 +62,7 @@ public class ParkingMeterInterfaceImpl implements ParkingMeterInterface {
             return replyMessage;
 
         } catch (Exception e) {
-            throw new RuntimeException("cannot run rest client to retrieveEntity: Exception:", e);
+            throw new RuntimeException("cannot run rest client to retrieveParkingMeter: Exception:", e);
         }
 
         

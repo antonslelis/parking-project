@@ -16,7 +16,7 @@ import org.solent.parking.project.service.ServiceFactoryImpl;
 
 /**
  *
- * @author cgallen
+ * @author anton
  */
 public class ServiceFacadeImplTest {
 

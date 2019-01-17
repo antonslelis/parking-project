@@ -5,10 +5,7 @@
  */
 package org.solent.parking.project.model;
 
-/**
- *
- * @author cgallen
- */
+
 public interface ServiceFactory {
     
     public ServiceFacade getServiceFacade();
