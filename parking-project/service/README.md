@@ -1,3 +1,2 @@
-# Ticket Kiosk Service
-
-This code simulates a ticket kiosk system
+# Service
+This part of the project has implementation of ServiceFacade and ServiceFactory as well as tests for them.
