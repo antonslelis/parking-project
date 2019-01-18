@@ -2,7 +2,7 @@
 
 ## Instructions
 In order to run this project you need to: 
-1. clone the reposetory using:'git clone'
+1. clone the repository using:'git clone'
 2. move to the directory where you stored your project
 3. in command line type 'mvn clean install' in the project directory
 4. in command line type 'cd web'
