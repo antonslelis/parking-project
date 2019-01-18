@@ -10,5 +10,5 @@
 
 ## Template Class Diagram
 
-![alt text](../parking-project-uml/Class Diagrams/final-project.png "Figure final-project.png")
+![alt text](../parking-project-uml/images/final-project.png "Figure final-project.png")
 
