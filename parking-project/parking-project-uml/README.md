@@ -10,7 +10,7 @@ Images can be saved and loaded as xml files within your project and exported as 
 
 ## Template use case diagram
 
-![alt text](../parking-project-uml/drawio/exampleproject-usecase-drawio.png "Figure exampleproject-usecase-drawio.png")
+![alt text](../parking-project-uml/drawio/parking-project-usecase-drawio-png.png "Figure eparking-project-usecase-drawio-png.png")
 
 ## Template Robustness Diagram 
 
