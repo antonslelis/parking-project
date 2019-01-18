@@ -9,7 +9,6 @@ In order to run this project you need to:
 5. in command line type "mvn jetty:run'
 6. to acces the website click the [link](http://localhost:8680)
 
-### Getting Started
 
 
 
